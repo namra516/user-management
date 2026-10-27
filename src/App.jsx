@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import UserList from './components/userList';
-import UserDetails from './components/userDetails';
-import UserForm from './components/userForm';
+import UserList from './components/UserList.jsx';
+import UserDetails from './components/UserDetails.jsx';
+import UserForm from './components/UserForm.jsx';
 
 export default function App() {
   // which screen are we on?  list | details | add | edit
